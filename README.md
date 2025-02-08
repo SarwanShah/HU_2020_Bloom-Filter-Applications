@@ -47,11 +47,3 @@ The application leverages **MurmurHash3**, **SHA1**, and custom **Bloom Filter**
 1. **Filter Generation**: Text data (e.g., news articles) is processed to generate a Bloom Filter.  
 2. **Document Comparison**: The user provides a document, and each line is checked against the Bloom Filter to determine the percentage of overlap.  
 3. **Output**: The application outputs the plagiarism percentage.  
-
----
-
-## 🔧 **How to Run**  
-1. Clone the repository.  
-2. Install dependencies:  
-   ```sh
-   pip install bitarray

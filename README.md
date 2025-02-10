@@ -1,13 +1,13 @@
-# 🔒 Password and Plagiarism Detection Application Using Bloom Filters  
+# Password and Plagiarism Detection Application Using Bloom Filters  
 
-## 📌 **Project Overview**  
+## **Project Overview**  
 This project demonstrates the development of an application that performs both **password breach detection** and **plagiarism detection** using **Bloom Filters** and **hash functions**. It offers efficient, scalable solutions to check large datasets quickly without storing the entire data in memory.  
 
 The application leverages **MurmurHash3**, **SHA1**, and custom **Bloom Filter** implementations, along with **Tkinter** for the graphical interface.
 
 ---
 
-## 🛠 **Features**  
+## **Features**  
 - **Password Verification**:  
   Uses a Bloom Filter to verify if a password has been leaked or compromised.  
 
@@ -27,7 +27,7 @@ The application leverages **MurmurHash3**, **SHA1**, and custom **Bloom Filter**
 
 ---
 
-## 📂 **File Descriptions**  
+## **File Descriptions**  
 
 - **Application.py**: Implements the main GUI application for password checking. Integrates filter loading and input handling.  
 - **BloomFilter.py**: Defines the **Bloom Filter** class with methods for filter creation, loading, and item checking.  
@@ -37,7 +37,7 @@ The application leverages **MurmurHash3**, **SHA1**, and custom **Bloom Filter**
 
 ---
 
-## 🏗 **How It Works**  
+## **How It Works**  
 
 ### **Password Detection**  
 1. **Data Preparation**: A dataset of hashed passwords is loaded into a Bloom Filter.  
